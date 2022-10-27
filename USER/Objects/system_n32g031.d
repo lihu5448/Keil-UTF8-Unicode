@@ -1,0 +1,9 @@
+.\objects\system_n32g031.o: ..\CMSIS\device\system_n32g031.c
+.\objects\system_n32g031.o: ..\CMSIS\device\n32g031.h
+.\objects\system_n32g031.o: ..\CMSIS\core\core_cm0.h
+.\objects\system_n32g031.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_n32g031.o: ..\CMSIS\core\core_cmInstr.h
+.\objects\system_n32g031.o: ..\CMSIS\core\core_cmFunc.h
+.\objects\system_n32g031.o: ..\CMSIS\device\system_n32g031.h
+.\objects\system_n32g031.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\system_n32g031.o: ..\CMSIS\device\n32g031_conf.h

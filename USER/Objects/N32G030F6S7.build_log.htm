@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: GHK FKG, GYOGIOL, LIC=D0D7S-L0IHB-9UE4U-S2BKE-CQL6D-J80K9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+D:\Users\lihu\Desktop\utf8×ªunicode²âÊÔ\USER\N32G030F6S7.uvprojx
+Project File Date:  10/27/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling system_n32g031.c...
+assembling startup_n32g031.s...
+compiling main.c...
+main.c(66): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+        sprintf(data,"OlÃ¡:%d",c);      
+main.c(67): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+    Utf8ToUnicode(str,data);
+main.c: 2 warnings, 0 errors
+compiling n32g030_it.c...
+compiling delay.c...
+compiling LED.c...
+compiling modbus_slave.c...
+compiling init.c...
+compiling flash.c...
+compiling Proc.c...
+linking...
+Program Size: Code=5016 RO-data=288 RW-data=80 ZI-data=2000  
+FromELF: creating hex file...
+".\Objects\N32G030F6S7.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Nationstech
+                http://www.keil.com/pack/Nationstech.N32G031_DFP.1.0.2.pack
+                Nationstech.N32G031_DFP.1.0.2
+                Nationstech N32G031 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Users\lihu\AppData\Local\Arm\Packs\Nationstech\N32G031_DFP\1.0.2\firmware\CMSIS\device
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

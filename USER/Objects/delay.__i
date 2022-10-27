@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\device -I ..\CMSIS\device\startup -I ..\FWLIB\inc -I ..\USER -I ..\CMSIS\core -I ..\HARDWARE
+-I.\RTE\_Target_1
+-ID:\Users\lihu\AppData\Local\Arm\Packs\Nationstech\N32G031_DFP\1.0.2\firmware\CMSIS\device
+-ID:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="528" -DN32G031 -DUSE_STDPERIPH_DRIVER -DN32G030 -DUSE_STDPERIPH_DRIVER
+-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d "..\HARDWARE\delay.c"
